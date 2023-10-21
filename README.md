@@ -1,4 +1,4 @@
-# NLP Text Similarity Project w/ Milvus, Docker, and word2Vec
+# NLP Text Similarity Project w/ Milvus Database, Docker, and Towhee
 
 
 ## Installation
@@ -14,17 +14,12 @@ The very first step of this project is running all the services.
 docker-compose up -d
 ```
 
-### Data to Vectors
-Then, convert the HTML based texts to Vectors through the Milvus. 
-
-### Find Similar Jobs
-To find the similar jobs from Milvus database, run the following command. However, make sure
-that the text in the curl command is preprocessed (no HTML tags, no stopword).
-
-### Check the Outcomes
-The similar jobs will be listed in this address: http://127.0.0.1:12345/similar_jobs
-The most similar one is located at very firs.
-
+### Open UI
+After the services are succesfully running, Then open this address: 
+```bash
+http://localhost:8501
+```
+Streamlit screen should show up unless you got any database connection error.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
