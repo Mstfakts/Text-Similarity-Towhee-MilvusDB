@@ -1,5 +1,7 @@
 # NLP Text Similarity Project w/ Milvus Database, Docker, and Towhee
 
+## First Look:
+![](https://github.com/Mstfakts/Text-Similarty-Towhee-MilvusDB/blob/main/Text_Similarity.gif)
 
 ## Installation
 Make sure that you have Docker and Docker compose to run the project
